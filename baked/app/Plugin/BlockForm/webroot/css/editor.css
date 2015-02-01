@@ -1,0 +1,37 @@
+table.bk-block-form-editor {
+  border-collapse: collapse;
+  width: 100%;
+}
+table.bk-block-form-editor th,
+table.bk-block-form-editor td {
+  border: 1px solid #eee;
+  padding: 5px;
+  background: #fff;
+}
+table.bk-block-form-editor thead th {
+  background: #00ADE6;
+  color: #fff;
+}
+table.bk-block-form-editor th:first-child,
+table.bk-block-form-editor th:last-child {
+  width: 1px;
+}
+table.bk-block-form-editor i.icon-move {
+  cursor: move;
+}
+table.bk-block-form-editor td.bk-center {
+  text-align: center;
+}
+
+div.bk-block-form-editor-box {
+  width: 400px;
+}
+div.bk-block-form-editor-box div.input {
+  padding: 2px 0;
+}
+div.bk-block-form-editor-box label {
+  width: 85px;
+  display: inline-block;
+  vertical-align: top;
+}
+

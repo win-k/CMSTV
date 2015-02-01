@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+body {
+  font-family: serif;
+  color: #333;
+  font-size: 10pt;
+  background: #f2f2f2;
+}
+a {
+  text-decoration: none;
+  color: #00ADE6;
+}
+a:hover {
+  text-decoration: underline;
+}
+label {
+  cursor: pointer;
+}
+
+#wrap {
+  text-align: center;
+  padding: 50px 0;
+}
+#main {
+  margin: auto;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 0 30px #ccc;
+  width: 400px;
+  padding: 20px;
+  background: #fff;
+}
+
+#logo {
+  margin-bottom: 20px;
+}
+#logo img {
+  width: 150px;
+}
+
+header.header-01 {
+}
+header.header-01 > h1 {
+  font-size: 10pt;
+}
+
+dl.dl-01 {
+  margin: 0 0 1px 0;
+  overflow: hidden;
+  position: relative;
+}
+dl.dl-01 > dt,
+dl.dl-01 > dd {
+  padding: 5px;
+}
+dl.dl-01 > dt {
+  width: 90px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+dl.dl-01 > dd {
+  margin-left: 100px;
+}
+dl.dl-01.ok {
+  color: #27b4e9;
+}
+dl.dl-01.ok > dt {
+  border-color: #c9edfa;
+  background: #f4fcff;
+}
+dl.dl-01.ng > dt {
+  border-color: #fac9c9;
+  background: #fff4f4;
+}
+dl.dl-01.ng {
+  color: #e92727;
+}
+
+div.spacer1 {
+  height: 10px;
+}
+div.spacer2 {
+  height: 20px;
+}
+div.spacer3 {
+  height: 30px;
+}
+
+form.form-01 {
+}
+form.form-01 input[type="text"],
+form.form-01 input[type="password"],
+form.form-01 input[type="number"] {
+  border-radius: 3px;
+  background: #f2f2f2;
+  padding: 4px 4px;
+  width: 220px;
+  border: 1px solid #ccc;
+}
+form.form-01 > div.input {
+  overflow: hidden;
+  padding: 10px;
+}
+form.form-01 > div.input > label {
+  font-weight: bold;
+  width: 110px;
+  display: block;
+  float: left;
+}
+form.form-01 > div.input > input {
+  float: left;
+}
+form.form-01 > div.input.error {
+  background: #fff4f4;
+}
+form.form-01 > div.input.error > input[type="text"],
+form.form-01 > div.input.error > input[type="password"],
+form.form-01 > div.input.error > input[type="number"] {
+  border-color: #fac9c9;
+}
+form.form-01 > div.input > div.error-message {
+  float: left;
+  margin: 5px 0 0 150px;
+  color: #e92727;
+}
+
+div.flash-message {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-shadow: 0 1px 1px #fff;
+}
+div.flash-message.success {
+  border-color: #c9edfa;
+  background: #f4fcff;
+  color: #27b4e9;
+}
+div.flash-message.error {
+  border-color: #fac9c9;
+  background: #fff4f4;
+  color: #e92727;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,179 @@
+ul.ul-themes-01 {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+  overflow: hidden;
+  margin-left: -20px;
+}
+ul.ul-themes-01 > li {
+  float: left;
+  margin-left: -1px;
+  height: 250px;
+  border-left: 1px solid #eee;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  margin-bottom: 20px;
+}
+ul.ul-themes-01 > li img.screen {
+  width: 200px;
+  padding: 3px;
+  border: 1px solid #eee;
+}
+ul.ul-themes-01 > li > div.info {
+}
+ul.ul-themes-01 > li > div.info > div {
+  padding: 5px 5px 0px 5px;
+}
+ul.ul-themes-01 > li div.name {
+}
+ul.ul-themes-01 > li div.name input {
+  margin-right: 3px;
+}
+ul.ul-themes-01 > li i.icon {
+  margin-right: 2px;
+  display: inline-block;
+}
+ul.ul-themes-01 > li div.author {
+  font-size: 9pt;
+}
+ul.ul-themes-01 > li div.meta {
+  font-size: 9pt;
+}
+ul.ul-themes-01 > li div.meta span.meta-item {
+  margin-right: 5px;
+  display: inline-block;
+}
+ul.ul-themes-01 > li div.meta span.meta-item:last-child {
+  margin-right: 0;
+}
+ul.ul-themes-01 > li div.use-in {
+  position: absolute;
+  top: -8px;
+  right: 12px;
+}
+ul.ul-themes-01 > li div.use-in-pc,
+ul.ul-themes-01 > li div.use-in-mobile {
+  background: #00b5e5;
+  padding: 2px 8px;
+  color: #fff;
+  font-size: 8pt;
+  border-radius: 3px;
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+}
+
+ul.ul-themes-02 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -20px;
+}
+ul.ul-themes-02 > li {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  float: left;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+ul.ul-themes-02 > li > img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+ul.ul-themes-02 > li > div.cover {
+  position: absolute;
+  top: 180px;
+  /*top: 0px;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 15px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+  transition: all 0.4s ease;
+}
+ul.ul-themes-02 > li:hover > div.cover {
+  top: 0px;
+}
+ul.ul-themes-02 > li > div.cover > ul.support {
+  list-style: none;
+  padding: 0;
+  font-size: 9pt;
+  overflow: hidden;
+  height: 26px;
+  line-height: 28px;
+}
+ul.ul-themes-02 > li > div.cover > ul.support > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+ul.ul-themes-02 > li > div.cover > div.name {
+  height: 30px;
+  font-size: 12pt;
+  overflow: hidden;
+  line-height: 30px;
+  border-bottom: 1px solid #999;
+  padding-left: 5px;
+}
+ul.ul-themes-02 > li > div.cover > div.description {
+  height: 80px;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-top: 10px;
+  font-size: 9pt;
+}
+ul.ul-themes-02 > li > div.cover > div.buttons {
+  height: 24px;
+  margin-top: 8px;
+}
+ul.ul-themes-02 > li > div.cover > div.buttons ul.button-dropdown-menu-above {
+  max-height: 140px;
+  overflow: auto;
+}
+ul.ul-themes-02 > li > div.cover > div.buttons div.color-box {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border: 1px solid #111;
+}
+ul.ul-themes-02 > li > div.cover > div.author {
+  margin-top: 5px;
+}
+
+
+div.editor-set {
+  overflow: hidden;
+}
+div.editor-set > div.editor {
+  float: left;
+  width: 73%;
+}
+div.editor-set > div.explorer {
+  float: right;
+  width: 25%;
+}
+div.editor-set > div.editor textarea {
+  width: 95%;
+}
+div.editor-set div.CodeMirror {
+  border: 1px solid #ccc;
+}
+div.editor-set > div.explorer > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+div.editor-set > div.explorer > ul > li > a {
+}
+div.editor-set > div.explorer > ul > li.current > a {
+  color: #666;
+  text-decoration: none;
+  font-weight: bold;
+}
+

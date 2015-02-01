@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+/**************************************/
+/* レイアウト */
+/**************************************/
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  text-align: left;
+  font-size: 11pt;
+}
+img {
+  border: none;
+  vertical-align: bottom;
+  max-width: 100%;
+}
+ul, ol {
+  margin: 0;
+}
+
+#wrap {
+  margin: 40px auto;
+  width: 960px;
+  border: 1px solid #ccc;
+  padding: 0 40px;
+}
+#primary-header {
+  height: 140px;
+  line-height: 140px;
+}
+#primary-header > a {
+  font-size: 20pt;
+  text-decoration: none;
+  font-weight: bold;
+}
+#content {
+}
+#main {
+  float: right;
+  text-align: left;
+  width: 640px;
+}
+#sub {
+  float: left;
+  width: 280px;
+}
+
+#primary-navigation {
+  margin-bottom: 20px;
+}
+#primary-navigation ul {
+  list-style: none;
+  padding: 0;
+}
+#primary-navigation ul ul {
+  margin-left: 15px;
+}
+#primary-navigation ul ul ul {
+  margin-left: 15px;
+}
+#primary-navigation li.current > a {
+  font-weight: bold;
+  font-style: italic;
+}
+button.button-default {
+}
+
+
+/**************************************/
+/* 各ブロックのスタイル */
+/**************************************/
+
+/* 見出し */
+.bk-block-content h1 {
+}
+.bk-block-content h2 {
+}
+.bk-block-content h3 {
+}
+
+/* テーブル */
+.bk-block-content table {
+}
+
+/* リスト */
+.bk-block-content ul,
+.bk-block-content ol {
+}
+
+/* 引用 */
+.bk-block-content blockquote {
+}
+
+/* フォーム */
+.bk-block-content form {
+}
+.bk-block-content .bk-block-form-item {
+  margin-bottom: 20px;
+}
+.bk-block-content .bk-block-form-item input[type="text"],
+.bk-block-content .bk-block-form-item textarea {
+}
+
+/* ライン */
+.bk-block-content hr {
+}
+
+/* ブロック「写真」の画像 */
+.bk-block-photo-box img {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+/* ブロック「テキストと写真」と画像 */
+.bk-block-text-photo-image-box {
+  padding: 0 8px;
+}
+.bk-block-text-photo-image-box > img {
+}
+
+/* フォトギャラリー */
+ul.block-photo-gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+ul.block-photo-gallery > li {
+  display: inline-block;
+  margin: 3px;
+}
+ul.block-photo-gallery > li img {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+/**************************************/
+/* ブログ */
+/**************************************/
+
+#entries {
+}
+/* 記事 */
+.entry {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  overflow: hidden;
+}
+/* 記事タイトル */
+.entry > .title {
+  margin-bottom: 10px;
+}
+.entry > .title h2 {
+  margin: 0;
+}
+/* 投稿日時、コメント数など記事情報 */
+.entry > .sub {
+  margin-bottom: 10px;
+  text-align: right;
+}
+/* 本文 */
+.entry > .body {
+}
+/* 続き前の本文 */
+.entry > .body > .body1 {
+  margin-bottom: 10px;
+}
+/* 続きの本文 */
+.entry > .body > .body2 {
+}
+/* 続きを読むボタン */
+.entry > a.more-read {
+}
+
+/* ページネーター */
+div.bk-paginator {
+  text-align: center;
+}
+div.bk-paginator span.current,
+div.bk-paginator a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+}
+
+/* コメント */
+#comments {
+}
+#comments h3 {
+  margin-bottom: 0;
+}
+#comments > ul {
+  list-style: none;
+  padding: 0;
+}
+#comments > ul > li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+#comments > ul > li > div.name {
+  font-weight: bold;
+}
+#comments > ul > li > div.created {
+  text-align: right;
+}
+#comments > ul > li > div.body {
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+div.bk-block.bk-open div.bk-block-space {
+  background: #FFFFFF;
+  border: 1px dotted #ccc;
+}
+div.bk-block div.bk-block-space .ui-resizable-s {
+  display: none !important;
+}
+div.bk-block.bk-open div.bk-block-space .ui-resizable-s {
+  display: block !important;;
+}
+div.bk-block-space .ui-resizable-s {
+  background: url(../../img/icons/resize.png) no-repeat center;
+  height: 24px;
+  bottom: 3px;
+}

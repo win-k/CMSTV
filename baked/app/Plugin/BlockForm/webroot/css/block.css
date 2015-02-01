@@ -1,0 +1,23 @@
+form.bk-block-form {
+}
+form.bk-block-form div.checkbox {
+  display: inline-block;
+}
+
+div.bk-block-form-item {
+  position: relative;
+}
+
+div.bk-block-form-error {
+  position: absolute;
+  display: none;
+  top: 10px;
+  left: 0px;
+  cursor: pointer;
+  /*background: #4CB6E7;*/
+  background: #c00;
+  color: #fff;
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-size: 8pt;
+}

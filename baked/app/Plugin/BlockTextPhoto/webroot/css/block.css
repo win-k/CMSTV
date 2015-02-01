@@ -1,0 +1,17 @@
+div.bk-block-text-photo-content {
+  overflow: hidden;
+}
+div.bk-block-text-photo-image-box {
+  margin-bottom: 10px;
+}
+div.bk-block-text-photo-image-box.left {
+  float: left;
+  margin-right: 10px;
+}
+div.bk-block-text-photo-image-box.right {
+  float: right;
+  margin-left: 10px;
+}
+div.bk-block-text-photo-image-box > img {
+  width: 100%;
+}

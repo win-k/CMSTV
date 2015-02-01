@@ -11,7 +11,7 @@ CMSTV list
 
 LICENSE
 ========
-Licensed under MIT License, see[LICENSE]()
+Licensed under MIT License, see[LICENSE](https://github.com/win-k/CMSTV/blob/master/LICENSE)
 
 Copyright
 ========

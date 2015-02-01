@@ -1,0 +1,12 @@
+<?php
+define('MY_SECURITY_SALT', '<:security_salt>');
+define('MY_SECURITY_CIPERSEED', '<:security_ciperseed>');
+
+define('MY_DB_HOST', '<:db_host>');
+define('MY_DB_USER', '<:db_user>');
+define('MY_DB_PASSWORD', '<:db_password>');
+define('MY_DB_NAME', '<:db_name>');
+define('MY_DB_PREFIX', '<:db_prefix>');
+define('MY_DB_ENCODING', 'utf8');
+
+
