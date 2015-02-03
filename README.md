@@ -8,6 +8,8 @@ CMSTV list
 - concrete-v5.6.3.2.ja
 - modx(evo)-v1.0.14
 - baked-v0.1.4
+- wordpress-Package-v4.1.ja
+
 
 LICENSE
 ========
