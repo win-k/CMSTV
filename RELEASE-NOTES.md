@@ -1,5 +1,9 @@
 #RELEASE-NOTES - リリースノート
 
+###CMSTV-Ver.α.0.7 (2015-02-04)
+
+    # Fixed　修正しました README.md
+
 ###CMSTV-Ver.α.0.6 (2015-02-04)
 
     + Added　追加 fluxbb-v.1.5.8(en/ja)
