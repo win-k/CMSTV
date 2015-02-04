@@ -5,10 +5,15 @@ CMS Test Version(CMSTV)は、CMSテスト用のファイルです。CMSTV list�
 CMSTV list
 ========
 - SilverStripe-cms-v3.1.9
-- concrete-v5.6.3.2.ja
 - modx(evo)-v1.0.14
 - baked-v0.1.4
+- concrete-v5.6.3.2.ja
 - wordpress-Package-v4.1.ja
+  ```
+  - wordpress-v4.1.ja
+  ```
+- fluxbb-v.1.5.8(en/ja)
+
 
 
 LICENSE
